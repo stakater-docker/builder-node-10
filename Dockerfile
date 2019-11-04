@@ -1,4 +1,4 @@
-FROM node:10.16.3
+FROM node:10.17.0
 
 RUN echo "deb http://ftp.us.debian.org/debian testing main contrib non-free" >> /etc/apt/sources.list \
      &&      apt-get update \
